@@ -2,15 +2,19 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/vivekpat/"
         },
         {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://github.com/vivek1999patel"
+        },
+        {
+            "network" : "twitter",
+            "href": "https://twitter.com/Vivek_1999"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:viveks11099p@gmail.com"
         }
     ]
 }

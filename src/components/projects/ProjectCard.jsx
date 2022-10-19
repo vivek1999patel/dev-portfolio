@@ -90,7 +90,7 @@ const ProjectCard = (props) => {
 };
 
 ProjectCard.propTypes = {
-  project: PropTypes.shape({
+  project: PropTypes.objectOf({
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,

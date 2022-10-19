@@ -1,149 +1,91 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/RentalBravo.png",
+            "title": "Rental Bravo",
+            "bodyText": "- Developed a SPA to connect property owners and managers with tenants seeking to rent a property.\n -  Built Front-End UI by utilizing ReactJs, React-Bootstrap and leveraged Node.JS, Express, and RESTful routes to perform CRUD functionality and routing on Back-End. \n - Utilized JWT authentication and consumed RESTful APIs such as MapBox forward geocoding API to auto-load addresses when adding or searching for the listings. Also, utilized AWS S3Bucket for storing images.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/vivek1999patel/project_4"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://rental-bravo.herokuapp.com/"
                 }
             ],
             "tags" : [
                 "React",
-                "Portfolio",
-                "JavaScript"
+                "NodeJS",
+                "Express",
+                "MongoDB"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/DjangoShop.png",
+            "title": "Django Shop",
+            "bodyText": "- Developed an E-commerce web app for small retail stores to have an online presence and also, connect with new customers and handle online orders to generate more revenue and acquire customers.\n - Utilized HTML5 and CSS framework Materialize to develop the front-end UI and Python and Django framework to implement the business logic on the back-end. Also, I leveraged PostgreSQL to store Data.\n - Leveraged AWS S3Bucket for storing images on the web server and deployed the app on Heroku.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/dacaroglu/DjangoShopCart"
                 },
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://shop-sei.herokuapp.com/"
                 }
             ],
             "tags" : [
                 "Python",
                 "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "PostgreSQL",
+                "Materialize",
+                "AWS",
+                "Heroku"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/YourAccommodation.png",
+            "title": "YourAccommodation",
+            "bodyText": "- Developed a web app to connect property owners and managers with tenants seeking to rent a property. \n - Build Front-End UI by utilizing HTML5, CSS3, and JavaScript templating engine(EJS) and leveraging Node.JS, Express, and RESTful routes to perform CRUD functionality and routing on Back-End. \n -  Consumed RESTful APIs such as Google People API along with OAuth 2.0 to authenticate, authorize and allow user login, and also, used Imgur API for image uploading.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/vivek1999patel/youraccommodation"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://yraccommodation.herokuapp.com/"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "HTML5",
+                "CSS3",
+                "NodeJS",
+                "Express",
+                "MongoDB",
+                "GitHub"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "image" : "images/projects/BlackJack.png",
+            "title": "BlackJack",
+            "bodyText": "- Developed browser based, most popular, and widely played casino banking game BlackJack. \n - Utilized HTML5, CSS3 to build user-friendly UI and implemented real game rules by leveraging JavaScript. Also, implemented Model-View-Controller(MVC) to navigate through the gameplay and render game rules. \n - Leveraged wire-framing tool Figma and Trello board to prepare wire-frames and manage project tasks.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
+                    "href": "https://github.com/vivek1999patel/BlackJack"
+                },
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "text": "Live",
+                    "href": "https://vivek1999patel.github.io/BlackJack/"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "GitHub"
             ]
         }
     ]
