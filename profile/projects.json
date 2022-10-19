@@ -1,0 +1,92 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/RentalBravo.png",
+            "title": "Rental Bravo",
+            "bodyText": "- Developed a SPA to connect property owners and managers with tenants seeking to rent a property.\n -  Built Front-End UI by utilizing ReactJs, React-Bootstrap and leveraged Node.JS, Express, and RESTful routes to perform CRUD functionality and routing on Back-End. \n - Utilized JWT authentication and consumed RESTful APIs such as MapBox forward geocoding API to auto-load addresses when adding or searching for the listings. Also, utilized AWS S3Bucket for storing images.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/vivek1999patel/project_4"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://rental-bravo.herokuapp.com/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "NodeJS",
+                "Express",
+                "MongoDB"
+            ]
+        },
+        {
+            "image" : "images/projects/DjangoShop.png",
+            "title": "Django Shop",
+            "bodyText": "- Developed an E-commerce web app for small retail stores to have an online presence and also, connect with new customers and handle online orders to generate more revenue and acquire customers.\n - Utilized HTML5 and CSS framework Materialize to develop the front-end UI and Python and Django framework to implement the business logic on the back-end. Also, I leveraged PostgreSQL to store Data.\n - Leveraged AWS S3Bucket for storing images on the web server and deployed the app on Heroku.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/dacaroglu/DjangoShopCart"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://shop-sei.herokuapp.com/"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Django",
+                "PostgreSQL",
+                "Materialize",
+                "AWS",
+                "Heroku"
+            ]
+        },
+        {
+            "image" : "images/projects/YourAccommodation.png",
+            "title": "YourAccommodation",
+            "bodyText": "- Developed a web app to connect property owners and managers with tenants seeking to rent a property. \n - Build Front-End UI by utilizing HTML5, CSS3, and JavaScript templating engine(EJS) and leveraging Node.JS, Express, and RESTful routes to perform CRUD functionality and routing on Back-End. \n -  Consumed RESTful APIs such as Google People API along with OAuth 2.0 to authenticate, authorize and allow user login, and also, used Imgur API for image uploading.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/vivek1999patel/youraccommodation"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://yraccommodation.herokuapp.com/"
+                }
+            ],
+            "tags" : [
+                "HTML5",
+                "CSS3",
+                "NodeJS",
+                "Express",
+                "MongoDB",
+                "GitHub"
+            ]
+        },
+        {
+            "image" : "images/projects/BlackJack.png",
+            "title": "BlackJack",
+            "bodyText": "- Developed browser based, most popular, and widely played casino banking game BlackJack. \n - Utilized HTML5, CSS3 to build user-friendly UI and implemented real game rules by leveraging JavaScript. Also, implemented Model-View-Controller(MVC) to navigate through the gameplay and render game rules. \n - Leveraged wire-framing tool Figma and Trello board to prepare wire-frames and manage project tasks.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/vivek1999patel/BlackJack"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://vivek1999patel.github.io/BlackJack/"
+                }
+            ],
+            "tags" : [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "GitHub"
+            ]
+        }
+    ]
+}

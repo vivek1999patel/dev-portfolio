@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "July 2022 - Oct 2022",
+            "cardTitle": "Software Engineering Immersive",
+            "cardSubtitle":"General Assembly, Toronto",
+            "cardDetailedText": "GPA 3.8/4.0",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Jan 2018 - Aug 2019",
+            "cardTitle": "Computer Systems Technician - Software Engineering",
+            "cardSubtitle":"Sheridan College, Brampton",
+            "cardDetailedText": "GPA 3.3/4.0"
+        }
+    ]
+}
