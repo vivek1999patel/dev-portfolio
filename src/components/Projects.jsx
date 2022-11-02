@@ -10,7 +10,9 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   containerStyle: {
-    marginBottom: 25,
+    // marginRight: 25,
+    // marginBottom: 25,
+    margin: 30,
   },
   showMoreStyle: {
     margin: 25,
@@ -31,7 +33,7 @@ const Projects = (props) => {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-  const numberOfItems = showMore && data ? data.length : 6;
+  const numberOfItems = showMore && data ? data.length : 3;
   return (
     <>
       <Header title={header} />

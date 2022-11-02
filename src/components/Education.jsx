@@ -58,19 +58,9 @@ function Education(props) {
                   secondary: theme.accentColor,
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
-                  titleColor: theme.chronoTheme.titleColor,
+                  titleColor: theme.chronoTheme,
                 }}
-              >
-                <div className="chrono-icons">
-                  {data.education.map((education) => (education.icon ? (
-                    <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
-                    />
-                  ) : null))}
-                </div>
-              </Chrono>
+              />
             </Container>
           </div>
         </Fade>
